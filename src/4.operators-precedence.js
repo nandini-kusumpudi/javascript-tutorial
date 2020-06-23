@@ -1,3 +1,6 @@
+/************************************* Operators *****************************/
+
+
 /***Arithmetic operators ****/ 
 
 //addition
@@ -129,9 +132,6 @@ console.log(x <= 8);
 /********* JavaScript Logical Operators : ***********/
 
 
-
-
-
 //&&	and
 var x = 6;
 var y = 3;
@@ -151,3 +151,16 @@ var x = 6;
 var y = 3;
 console.log(!(x === y) + "<br>" + 
 !(x > y));
+
+
+
+
+/************************************* Operators precedence*****************************/
+
+
+var a= 15;
+var b = 10;
+var c = 5;
+console.log(a+b*c);
+
+console.log(100+10/5);
